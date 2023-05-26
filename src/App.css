@@ -1,38 +1,305 @@
-.App {
+ *
+ {
+  font-family: 'Roboto', sans-serif;
+ 
+ }
+ .App
+ {
+  width:100%;
+  background-image: url("https://lp-cms-production.imgix.net/2019-06/101686077.jpg");
+ }
+ .Navbar-container
+ {
+  position:relative;
+  box-shadow: 1px 1px 20px rgb(51, 51, 51);
+ }  .Navbar-container input{
+  background:transparent;
+  border:none;
+  box-shadow: -0.4px -0.4px 4px rgb(183, 182, 182);
+ }
+.me-auto
+{
+  margin-left:200px
+}
+.me-auto-linl
+{
+  margin-left:30px;
+  font-size: 20px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+.body-container
+{
+  position: relative;
+  width:100%;
+ 
+  
+}
+.body-container .body-main-container
+{
+  position: relative;
+  display:flex;
+  width:100%;
+  height:82vh;
+}
+.info
+{
+  position:relative;
+  width:65%;
+  height:100%;
+  ;
+}
+.info .info-part
+{
+  position:relative;
+  top:20%;
+  left:25%;
+}
+.info .info-part h1{
+  color:rgb(235, 8, 8);
+}
+.info .info-part p
+{
+  font-size: 25px;
+  word-spacing: 5px;
+}
+.info .info-part .P2
+{
+  position:relative;
+  top:-15px;
+}
+.info .info-part h3{
+  position:relative;
+  color:#fff;
+  text-shadow: 0 0 20px #2d31a1;
+  
+}
+.info .info-part .ul-part{
+  position:relative;
+  list-style-type: circle;
+  left:13%;
+  width:30%;
+  height:30%;
+}
+.info .info-part .ul-part ul{
+  list-style-type:none;
+  position:relative; 
+}
+.info .info-part .ul-part  li{
+  color:rgb(61, 17, 150);
+  font-size:27px;
+}
+.info .info-part .ul-part li span
+{
+  position:relative;
+}
+
+.info .info-part .ul-part li span::before
+{
+  content: '';
+  animation: animate  5s infinite;
+}
+@keyframes animate{
+  0%
+  {
+    content: 'Mern';
+    color:rgb(11, 10, 10);
+    -webkit-text-stroke: 0.1vw rgb(52, 153, 52);
+    font-size:2vw;
+  }
+  
+  50%
+  {
+    content: 'Mern';
+    color:rgb(12, 12, 12);
+    -webkit-text-stroke: 0.1vw rgb(52, 153, 52);
+    font-size:6vw;
+  }
+ 
+  51%
+  {
+    content: 'Developer';
+    color:rgb(10, 10, 10);
+    -webkit-text-stroke: 0.1vw rgb(52, 153, 52);
+    font-size:2vw;
+  }
+  100%
+  {
+   
+    content: 'Developer';
+    left:-10%;
+    color:rgb(10, 10, 10);
+    -webkit-text-stroke: 0.1vw rgb(52, 153, 52);
+    font-size:5vw;
+  }
+}
+.img
+{
+  position: relative;
+  width:35%;
+
+}
+.img .img-part
+{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+.img-part img{
+  position:relative;
+  top:10%;
+  left:19%;
+  width:75%;
+  height:75%;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1002px rgb(181, 111, 111);
+}
+.footer-main-container
+{
+  position:fixed;
+  height:15vh;
+  left:0;
+  bottom:0;
+  width:100%;
+ background:rgb(27, 26, 26);
+  text-align: center;
+  color:white;
+}
+.footer-main-container .footer-cont h3{
+  color:rgb(251, 0, 0);
+}
+.footer-main-container .footer-cont a{
+  text-decoration: none;
+  font-size: 24px;
+  color:white;
+  margin-left:10px;
+}
+.About-main
+{
+  position: relative;
+  width:100%;
+  height:90vh;
+}
+.project-main 
+{
+  position:relative;
+  width:100%;
+  height:105vh;
+  
+}
+.project-main  h3{
+  color:white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project-main .Project-list
+{
+  Position:relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.project-main .Project-list .card
+{
+  position:relative;
+  background:transparent;
+  width:27%;
+  height: 35vh;
+  margin-left:60px;
+  margin-top: 30px;;
+  margin-bottom: 10px;
+  box-shadow: 1PX 1PX 20PX rgb(121, 119, 119);
+  
 }
+.project-main .Project-list .card .card-title
+{
+  text-align: center;
+  
+}
+.project-main .Project-list .card a{
+  position:relative;
+  top:70%;  
+  left:35%;
+}
+@media only screen and (max-width: 510px) {
+  .body-container .body-main-container{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+  }
+  .body-container .body-main-container .info{
+    position:relative;
+   
+    width:100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .body-container .body-main-container .info .info-part{
+    position:relative;
+    top:40px;
+    margin-left:-30px;
   }
+
+  .body-container .body-main-container .img{
+    position:relative;
+    width:100%;
+    top:-10px;  
+  }
+  .body-container .body-main-container .img .img-part
+  {
+    position:relative;
+    left:-25px;
+  }
+  .me-auto{
+    position:relative;
+    margin-left: -10px;
+  }
+  .footer-main-container
+{
+  position:relative;
+  height:22vh;
+  left:0;
+  margin-top: -10px;
+  bottom:0;
+  width:100%;
+  text-align: center;
+  color:white;
+}
+.footer-main-container .footer-cont
+{
+  position: relative;
+  top:10px;
+}
+.footer-main-container .email-para
+{
+  position:relative;
+  top:20px;
+}
+.project-main
+{
+  position:relative;
+  width:100%;
+  height:auto;
+}
+.project-main .Project-list{
+  display:block;
+}
+.project-main .Project-list .card{
+  position: relative;
+  left:10%;
+  width:50%;
+  height:35vh;
+  margin-bottom: 10px;
+
+}
+.project-main .Project-list .card .card-body
+{
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.project-main .Project-list .card .card-body a{
+  position:relative;
+  left:23%
+};
 }
