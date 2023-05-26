@@ -4,7 +4,7 @@ import Footer from '../footer/Footer'
 import Body from '../body/Body'
 import Contact from '../body/Contact'
 import Project from '../body/Project'
-import About from '../body/About'
+import About from '../body/Skills'
 import {
   Route,
   Routes,

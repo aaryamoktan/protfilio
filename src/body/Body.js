@@ -1,5 +1,7 @@
 import React from 'react'
-
+import Contact from './Contact'
+import Project from './Project'
+import About from './Skills'
 const Body = () => {
     return (
         <>
@@ -14,9 +16,6 @@ const Body = () => {
                             
                                 Iam A <div className='ul-part'><ul>
                                 <li><span></span></li>
-                                
-                                
-                                
                                 </ul></div> </p>
                         </div>
                     </div>
@@ -26,8 +25,10 @@ const Body = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
+            <Project/>
+            <About/>
+            <Contact/>
         </>)
 }
 export default Body

@@ -10,7 +10,7 @@ function CollapsibleExample() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto"><Nav.Link className='me-auto-linl'  href="/">Home</Nav.Link>
                         <Nav.Link className='me-auto-linl'  href="/Project">Projects</Nav.Link>
-                        <Nav.Link className='me-auto-linl' href="/About">About-Me</Nav.Link>
+                        <Nav.Link className='me-auto-linl' href="/About">Skills</Nav.Link>
                         <Nav.Link className='me-auto-linl' href="/Contact">Contact</Nav.Link>
                         <Nav.Link className='me-auto-linl me-auto-input' ><input type="text"/></Nav.Link>   
                     </Nav>
