@@ -54,7 +54,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-               <button className='skill-download'><a  href={require("../images/resume.pdf") } download={require("../images/resume.pdf")}>Resume</a></button> 
+               <button className='skill-download'><a  href={require("../images/resume.pdf") } download="resume">Resume</a></button> 
             </div>
         </>
     )
