@@ -16,7 +16,7 @@ const Root = () => {
       <Route path="/" element={<Body/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Project" element = {<Project/>}/>
-      <Route path="/About" element= {<About/>}/>
+      <Route path="/Skills" element= {<About/>}/>
 
 
       
