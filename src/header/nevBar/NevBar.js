@@ -11,10 +11,10 @@ function CollapsibleExample() {
                 <Navbar.Brand href="/">Aarya Moktan</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto"><Nav.Link className='me-auto-linl'  href="/">Home</Nav.Link>
-                        <Nav.Link className='me-auto-linl'  ><Link to="/Project" style={{textDecoration:"none"}}>Projects</Link></Nav.Link>
-                        <Nav.Link className='me-auto-linl' ><Link to="/Skills">Skills</Link></Nav.Link>
-                        <Nav.Link className='me-auto-linl' ><Link to="/Contact">Contact</Link></Nav.Link>
+                    <Nav className="me-auto"><Nav.Link className='me-auto-linl'  href="/" style={{textDecoration:"none", color:"white"}}>Home</Nav.Link>
+                        <Nav.Link className='me-auto-linl'  ><Link to="/Project" style={{textDecoration:"none", color:"white"}}>Projects</Link></Nav.Link>
+                        <Nav.Link className='me-auto-linl' ><Link to="/Skills" style={{textDecoration:"none", color:"white"}}>Skills</Link></Nav.Link>
+                        <Nav.Link className='me-auto-linl' ><Link to="/Contact" style={{textDecoration:"none", color:"white"}}>Contact</Link></Nav.Link>
                         <Nav.Link className='me-auto-linl me-auto-input' ><input type="text"/></Nav.Link>   
                     </Nav>
 
