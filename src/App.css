@@ -188,8 +188,11 @@
   
 }
 .project-main  h3{
+  position:relative;
   color:white;
   text-align: center;
+  top:35px;
+  margin-left:100px;
 }
 .project-main .Project-list
 {
@@ -215,6 +218,7 @@
 .project-main .Project-list .card .card-title
 {
   text-align: center;
+  color:white;
   
 }
 .project-main .Project-list .card a{
@@ -552,5 +556,9 @@
   position: relative;
   top:10%;
   left:35%
+}
+.project-main h3{
+  position:relative;
+  margin-left:-27px;
 }
 }
