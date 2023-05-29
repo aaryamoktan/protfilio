@@ -17,13 +17,8 @@ const Root = () => {
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Project" element = {<Project/>}/>
       <Route path="/Skills" element= {<About/>}/>
-
-
-      
-    </Routes>
-    
+    </Routes>  
     <Footer/></div>
   )
 }
-
 export default Root

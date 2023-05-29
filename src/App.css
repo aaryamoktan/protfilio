@@ -214,7 +214,24 @@
   box-shadow: 0.6px 0.6px 20px white;
   border-radius: 20px;
   
+} .project-main .Project-list .card .card-body
+{
+  position:relative;
 }
+.project-main .Project-list .card .card-body .card-img
+{
+  position:relative;
+  width:100%;
+  height:70%;
+  background:white;
+  
+}
+.project-main .Project-list .card .card-body .card-img img{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
 .project-main .Project-list .card .card-title
 {
   text-align: center;
@@ -223,7 +240,7 @@
 }
 .project-main .Project-list .card a{
   position:relative;
-  top:70%;  
+  top:-5%;  
   left:35%;
 }
 .contact-container
@@ -458,8 +475,6 @@
   border-radius: 20px;
   height:35vh;
   margin-bottom: 10px;
-  
-
 }
 .project-main .Project-list .card .card-body
 {
@@ -507,7 +522,6 @@
 .contact-container .contact-form .contact-input label{
   position:relative
 }
-
 .contact-container .contact-form .contact-input .form-submit
 {
   margin-top:15px;

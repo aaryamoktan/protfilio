@@ -9,12 +9,15 @@ const Project = () => {
 
                 {
                     Api.map((ele) => {
-                        const { title, githublink, desc } = ele
+                        const { title, githublink, desc,img } = ele
 
                         return <div className="card" >
 
                             <div className="card-body">
                                 <h5 className="card-title">{title}</h5>
+                                <div className='card-img'>
+                                    <img src={img}/>
+                                </div>
                                 <p className="card-text">{desc}</p>
                                 <a href={githublink} target="blank" className="btn btn-primary">Click-Here</a>
                             </div>
