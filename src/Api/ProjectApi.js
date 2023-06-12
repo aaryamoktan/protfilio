@@ -1,9 +1,9 @@
 const Api = [
     {
-        title: "MLM",
-        githublink: "https://github.com/aaryamoktan/multilevelmarketing",
+        title: "Registration",
+        githublink: "https://aaryaregistration.onrender.com/",
         desc:"",
-        img:require("../images/aaryap.jpg")
+        img:require("../images/gap.png")
     },
     {
         title: "Home page",

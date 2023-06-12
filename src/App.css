@@ -259,7 +259,7 @@
   width: 20%;
   height:45vh;
   text-align: center;
-  top:10%;
+  top:2%;
   left:40%;
   border-radius: 25px;
   background-color: transparent;
@@ -496,15 +496,15 @@
 {
   position:relative;
   font-size: 25px;
-  top:15%;
+  top:5%;
 }
 .contact-container .contact-form
 {
   position:relative;
   width: 50%;
-  height:45vh;
+  height:50vh;
   text-align: center;
-  top:25%;
+  top:10%;
   left:25%;
   border-radius: 25px;
   background-color: transparent;
