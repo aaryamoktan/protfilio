@@ -6,10 +6,10 @@ const Api = [
         img:require("../images/gap.png")
     },
     {
-        title: "Home page",
-        githublink: "https://github.com/aaryamoktan/socail-media-ux-ui-design",
+        title: "Car Rental",
+        githublink: "https://carrental-8wvp.onrender.com/",
         desc:"",
-        img:require("../images/aaryap.jpg")
+        img:require("../images/car.png")
     },
     {
         title: "Login Page",
