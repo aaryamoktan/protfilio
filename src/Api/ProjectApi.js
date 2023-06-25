@@ -12,10 +12,10 @@ const Api = [
         img:require("../images/car.png")
     },
     {
-        title: "Login Page",
-        githublink: "https://github.com/aaryamoktan/home-page-from-react-js",
+        title: "Reliance Flooring",
+        githublink: "https://relinceflooringandengineeringservice.onrender.com",
         desc:"",
-        img:require("../images/aaryap.jpg")
+        img:require("../images/floo.png")
     },
     {
         title: "Travell",
