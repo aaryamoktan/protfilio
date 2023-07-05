@@ -18,10 +18,10 @@ const Api = [
         img:require("../images/floo.png")
     },
     {
-        title: "Travell",
-        githublink: "https://github.com/aaryamoktan/travellwithaaryamoktan",
+        title: "MT WEB SOLUTION",
+        githublink: "https://mt-web-solution.onrender.com/",
         desc:"",
-        img:require("../images/aaryap.jpg")
+        img:require("../images/mtsoln.png")
     },
     {
         title: "Protfilio",
