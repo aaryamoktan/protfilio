@@ -11,6 +11,7 @@
  .Navbar-container
  {
   position:relative;
+  height:15vh;
   box-shadow: 1px 1px 20px rgb(51, 51, 51);
  }  .Navbar-container input{
   background:transparent;
@@ -156,7 +157,7 @@
 }
 .footer-main-container
 {
-  position:fixed;
+  position:static;
   height:15vh;
   left:0;
   bottom:0;
@@ -406,13 +407,22 @@
   font-size: 30px;
   
 }
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 676px) {
   .body-container .body-main-container{
     position:relative;
     width:80%;
     height:100vh;
     display:flex;
     flex-direction: column;
+  }
+  #responsive-navbar-nav
+  {
+    position:relative;
+    height:35vh;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 22;
+    background:black;
   }
   .body-container .body-main-container .info{
     position:relative;

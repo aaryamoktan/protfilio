@@ -37,7 +37,6 @@ const Contact = () => {
               
               <label>Conform_Number:</label><br />
               <input type="text" name="conform_number"  id="conform_number" value={values.conform_number} onChange={handleChange} onBlur={handleBlur} /><br />
-             
               <button className='form-submit' type="submit">Submit</button>
             </div>
           </form>
