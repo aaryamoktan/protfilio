@@ -28,6 +28,12 @@ const Api = [
         githublink: "https://aaryamoktan.onrender.com/",
         desc:"",
         img:require("../images/aaryap.jpg")
+    },
+    {
+        title: "Blog",
+        githublink: "https://github.com/aaryamoktan/Blog",
+        desc:"",
+        img:require("../images/blog.png")
     }
 ]
 export default Api;
